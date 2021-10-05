@@ -3,11 +3,10 @@ using namespace std;
 
 int main() {
 
-  for (int i=0; i<5; i++) {
+  int i;
+  for (i=0; i<5; i++) {
     cout << "i=" << i << endl;
   }
-
-  cout << "value of i is now: " << i << endl;
-  
+  cout << "after loop i=" << i << endl;
   return 0;
 }
