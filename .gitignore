@@ -1,6 +1,7 @@
 *
 !*.cpp
 !.gitignore
+!*/*.cpp
 
 # Compiled Object files
 *.slo
