@@ -2,7 +2,7 @@
 using namespace std;
 
 string n_spaces(int length) {
-  string result;
+  string result="";
   for (int i=0; i<length; i++) {
     result += " ";
   }
