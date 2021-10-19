@@ -2,16 +2,16 @@
 // P. Conrad for CS16, Fall 2021
 // Example program to read all lines from a file and process them
 
-#include <iostream> // for printf()
-#include <cstdlib> // for exit(), perror()
+#include <iostream> // for cout 
+#include <cstdlib> // for exit(), 
 #include <fstream> // for ifstream
 
 using namespace std;
 
 
-void processLine(string thisLine, int &lineCount) {
+void processLine(string thisLine, int& lc) {
    cout << "I got [" << thisLine << "] from the file." << endl; 
-   lineCount ++;
+   lc ++;
 }
 
 int main(int argc, char *argv[])
