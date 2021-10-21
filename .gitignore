@@ -1,9 +1,5 @@
-*
-!10.*
-!10.*/*.cpp
-!*.cpp
-!.gitignore
-
+.DS_Store
+*~
 
 # Compiled Object files
 *.slo
