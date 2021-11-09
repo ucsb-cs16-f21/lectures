@@ -1,3 +1,11 @@
+
+# Executables
+goodbye
 hello
+
+# general file patterns to ignore
 *.o
+.DS_Store
+
+
 
