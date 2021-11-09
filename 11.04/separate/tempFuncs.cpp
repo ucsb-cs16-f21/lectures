@@ -8,4 +8,3 @@ double cToF(double cTemp) {
   return (cTemp / 5.0 * 9.0) + 32.0;
 }
 
-

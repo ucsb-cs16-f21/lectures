@@ -11,14 +11,9 @@ void usage() {
 	 << "Example: ./demo 68 F will output 20 C" << endl;
 }
 
-double fToC(double fTemp) {
-  return (fTemp - 32.0) / 9.0 * 5.0;
-}
 
-double cToF(double cTemp) {
-  return (cTemp / 5.0 * 9.0) + 32.0;
-}
-
+double fToC(double fTemp); // function declarations or function prototypes 
+double cToF(double cTemp);
 
 int main(int argc, char *argv[]) {
   if (argc != 3) {
@@ -39,4 +34,12 @@ int main(int argc, char *argv[]) {
   }
 
   return 0;
+}
+
+double fToC(double fTemp) {
+  return (fTemp - 32.0) / 9.0 * 5.0;
+}
+
+double cToF(double cTemp) {
+  return (cTemp / 5.0 * 9.0) + 32.0;
 }
