@@ -8,7 +8,7 @@ using namespace std;
 
 void usage() {
     cerr << "Usage: ./demo1 temp scale" << endl
-         << "  where temp is a temperature (numeric) " << endl
+         << "  where temp is a temperature (a number) " << endl
 	 << "  and scale is either F or C "
 	 << "Example: ./demo1 68 F will output 20 C" << endl;
 }
