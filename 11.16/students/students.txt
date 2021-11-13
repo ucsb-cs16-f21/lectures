@@ -1,0 +1,3 @@
+1234567,Chris Gaucho,3.67
+7655432,Lauren del Playa,3.97
+3333445,George Stoner,1.33
