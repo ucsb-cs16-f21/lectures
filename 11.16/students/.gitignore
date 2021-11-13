@@ -1,0 +1,6 @@
+studentDemo01
+studentDemo02
+studentDemo03
+*.o
+*~
+.DS_Store
