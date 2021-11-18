@@ -3,6 +3,8 @@ using std::cout;
 using std::endl;
 using std::string;
 
+
+// return a string like {3,4,18,9} or {} or {3}
 string arrayToString(int *nums, int size) {
   string result = "{";
 
