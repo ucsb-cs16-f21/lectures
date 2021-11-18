@@ -5,10 +5,10 @@ CXX=g++
 all: studentDemo01 studentDemo02 studentDemo03
 
 split.o: split.cpp split.h
-	$(CXX) split.cpp -c
+	${CXX}	split.cpp -c
 
 studentDemo01: studentDemo01.o Student.o
-	$(CXX) studentDemo01.o Student.o -o studentDemo01
+	${CXX} studentDemo01.o Student.o -o studentDemo01
 
 studentDemo02: studentDemo02.o Student.o
 	$(CXX) studentDemo02.o Student.o -o studentDemo02

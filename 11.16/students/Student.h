@@ -6,6 +6,7 @@ using std::string;
 
 class Student {
  public:
+  // function prototypes aka function declarations
   Student(int perm, string name, double gpa);
   int getPerm() const;
   string getName() const;

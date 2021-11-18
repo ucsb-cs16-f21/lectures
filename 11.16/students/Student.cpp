@@ -1,6 +1,12 @@
 #include "Student.h"
 #include <string>
+
 using std::string;
+
+// function definitions / method definitions
+
+// Student:: means that the method belongs to the class Student
+// :: "scope resolution operator".
 
 Student::Student(int perm, string name, double gpa) {
   this->perm = perm;
@@ -16,8 +22,8 @@ Student::Student(int perm, string name, double gpa) :
 */
 
 
-int Student::getPerm() const { return this->perm; }
-string Student::getName() const { return this->name; }
+int Student::getPerm() const { return this->perm;}
+std::string Student::getName() const { return this->name; }
 double Student::getGpa() const { return this->gpa; }
 
 void Student::setPerm(int perm) { this->perm = perm; }

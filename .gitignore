@@ -1,3 +1,9 @@
+# vim
+
+.swo
+.swp
+
+
 .DS_Store
 *~
 
