@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
-
+// starline(3) produces "***"
+// starline(0) produces ""
+// starline(1) produces "*"
 string starline(int length) {
 
   if (length <= 0)
@@ -18,5 +20,5 @@ int main() {
   cout << "starline(1)=" << starline(1) << endl;
   cout << "starline(4)=" << starline(4) << endl;
   cout << "starline(7)=" << starline(7) << endl;
-  
+  cout << "starline(-1)=" << starline(-1) << endl;  
 }
