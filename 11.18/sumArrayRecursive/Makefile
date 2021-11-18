@@ -1,11 +1,6 @@
+BINARIES=sumIterative sumRecursive printRecursive
 
-
-all: sumIterative sumRecursive printRecursive
-
-
-sumIterative: sumIterative.cpp
-	${CXX} sumIterative.cpp -o sumIterative
-
+all: ${BINARIES}
 
 clean:
-	/bin/rm -f sumIterative sumRecursive printRecursive *.o
+	/bin/rm -f ${BINARIES} *.o

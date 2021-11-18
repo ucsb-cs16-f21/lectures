@@ -16,6 +16,8 @@ string arrayToStringHelper(int *nums, int size) {
   }
 }
 
+
+//  want something like {3,6,12,19} or {45} or {}
 string arrayToString(int *nums, int size) {
   return "{" + arrayToStringHelper(nums, size) + "}";
 }
