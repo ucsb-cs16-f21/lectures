@@ -20,7 +20,7 @@ int * argvToArray(int argc, char *argv[]) {
     result[i-1]=atoi(argv[i]); 
   }
   
-  return result; // an array on the HEAP 
+  return result;  
 }
 
 void usage() {
@@ -35,7 +35,14 @@ int sumArray(int *nums, int size) {
     return nums[0] + sumArray(nums+1, size-1);
 }
 
+struct Test {
+  double y; 
+  int x;
+};
+
 int main(int argc, char *argv[]) {
+
+  Test *t = new Test;
 
   if (argc <= 1) {
     usage();
@@ -48,7 +55,9 @@ int main(int argc, char *argv[]) {
   int sum = sumArray(nums, size);
   cout << "sum=" << sum << endl;
 
-  delete [] nums;
+   delete [] nums; // IF WE OMIT THIS, MEMORY LEAK!
+
+  // delete t;
 
   return 0;
 }
